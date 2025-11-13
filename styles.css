@@ -1,0 +1,125 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: plum;
+}
+
+.container{
+    max-width: 1200px;
+    min-height: 10rem;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+}
+#pageheader{
+    background-color: rgb(234, 201, 226);
+    min-height: auto;
+    padding: .25rem;
+}
+
+#logo
+{
+    background-image: url(Images/max3.png);
+    width: 6.25rem;
+    height: 6.25rem;
+    border: 1px solid none;
+}
+
+#pageheader .container 
+{
+    background-color: rgb(250, 244, 232);
+    min-height: auto;
+}
+#pageheader nav{
+    text-align: center;
+}
+
+#media{
+    background-color: rgb(185, 237, 239);
+    min-height: 10rem;
+    padding: 1rem;
+    background-image: url(Images/Hero2.png);
+    background-size: cover;
+    aspect-ratio: 16/ 9;
+}
+
+#career{
+    background-color: rgb(199, 202, 245);
+    min-height: 10rem;
+    padding: 1rem;
+}
+
+#pagecontent{
+    background-color: rgb(169, 206, 206);
+    min-height: 10rem;
+    padding: 1rem;
+}
+  blockquote
+{
+  background-color:none;
+  padding:1rem;
+  width:50%;
+  margin:auto;
+  font-size:1.25rem; 
+  font-weight: bold;
+  color: pink;
+}
+blockquote + span
+{
+  background-color:none;
+  padding:1rem;
+  display:block;
+  width:50%;
+  margin:0 auto;
+  text-align:right;
+}
+span
+{
+  background-color:none;
+}
+p{background-color:none;}   
+
+
+#semester1{
+    background-color: rgb(196, 221, 240);
+    min-height: 10rem;
+    padding: 1rem;
+}
+
+#semester2{
+    background-color: rgb(153, 248, 237);
+    min-height: 10rem;
+    padding: 1rem;
+}
+
+#pagefooter{
+    background-color: rgba(211, 255, 224, 0.812);
+    min-height: auto;
+    padding: 1rem;
+}
+#pagefooter .container{
+    min-height: auto;
+    text-align: center;
+    background-image: url(Images/small.png);
+}
+
+#subfooter{
+    background-color: rgb(237, 173, 223);
+    min-height: 10rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+
+audio
+{
+    border: 5px solid skyblue;
+    background-color: skyblue;
+    display: block;
+    margin: auto;
+}
+a{ color: red;}
