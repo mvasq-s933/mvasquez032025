@@ -106,6 +106,19 @@ p{background-color:none;}
     background-image: url(Images/small.png);
 }
 
+#aifooter{
+    background-color: rgb(255, 209, 220);
+    min-height:auto;
+    padding: 1rem;
+}
+
+#aifooter .container{
+    min-height: auto;
+    text-align: center;
+    background-image: url(Images/ai.png);
+}
+
+
 #subfooter{
     background-color: rgb(237, 173, 223);
     min-height: 10rem;
