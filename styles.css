@@ -136,3 +136,14 @@ audio
     margin: auto;
 }
 a{ color: red;}
+
+@media screen and (min-width: 650px)
+{
+ #pagecontent{background-color: pink;}
+}
+
+
+@media screen and (min-width: 1000px)
+{
+ #pagecontent{background-color: rgb(216, 242, 255);}
+}
