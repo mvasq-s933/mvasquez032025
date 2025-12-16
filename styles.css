@@ -35,6 +35,26 @@ body{
 }
 #pageheader nav{
     text-align: center;
+    
+}
+
+#pageheader nav ul{
+   background-color: rgb(246, 247, 226);
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#pageheader nav ul li{
+    border: 2px solid rgb(255, 189, 189);
+    padding: 1rem;
+    margin: 2px;
+    background-color: rgb(249, 249, 229);
+}
+
+#pageheader nav ul li:hover{
+    background-color: rgb(255, 189, 189);
+   
 }
 
 #media{
@@ -137,8 +157,16 @@ audio
 }
 a{ color: red;}
 
-@media screen and (min-width: 650px)
+
+
+@media screen and (min-width: 850px)
 {
+#pageheader nav ul{
+      margin-top: 2rem;}
+
+    #pageheader nav ul li{
+        display: inline-block;}
+
  #pagecontent{background-color: pink;}
 }
 
