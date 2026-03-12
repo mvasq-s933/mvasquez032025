@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fix Menu</title>
+
+    <style>
+      /* Mobile First */
+      html {
+        /* Temporary - delete */
+        height: 200%;
+      }
+
+      body {
+        background-color: #ff0000;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      /* Delete me */
+      /* #fblogoheader {
+        background-color: #ff7700;
+        padding: 1rem;
+        margin: 1rem;
+      } */
+
+      #pageheader {
+        background-color: #000000;
+        padding: 1rem;
+        position: static;
+        /* Default */
+        border-bottom: 4px solid black;
+      }
+      img#logo {
+        width: 80px;
+        height: 80px;
+        display: block;
+        margin: auto;
+      }
+      #pageheader h1 {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        background-color: black;
+      }
+      #pageheader nav {
+        background-color: #e17707;
+        padding: 0.5rem;
+        border-radius: 10px;
+      }
+      #pageheader ul {
+        background-color: #ff0000;
+        padding: 0.5rem;
+        list-style-type: none;
+        /* flexbox component */
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+      #pageheader li {
+        text-align: center;
+        padding: 0.5rem;
+        background-color: yellow;
+        border: 1px solid white;
+      }
+      #pageheader a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+      }
+      /* Non pageheader items */
+
+      main {
+        padding: 1rem;
+      }
+      h2 {
+        color: rgb(246, 255, 69);
+      }
+      p {
+        line-height: 1.5;
+        color: #ffffff;
+      }
+
+      /*  Tablet and Desktop CSS*/
+      @media screen and (min-width: 650px) {
+        body {
+          background-color: #ff0000;
+        }
+        #pageheader {
+          position: fixed;
+          top: 0px;
+          left: 0px;
+          right: 0px;
+          /* Flexbox component */
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        #fblogoheader {
+          /* flexbox component */
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+        }
+
+        #pageheader nav {
+          min-width: 400px;
+        }
+
+        #pageheader ul {
+          flex-direction: row;
+          justify-content: center;
+        }
+
+        main {
+          padding-top: 200px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header id="pageheader">
+      <!-- Start the logo and header -->
+      <div id="fblogoheader">
+        <img id="logo" src="images/paws_logo.png" alt="Paws Logo" />
+        <h1>Paw's and Whiskers</h1>
+      </div>
+      <!-- End the logo and header -->
+
+      <!-- Start the navigation -->
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Our Pets</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </nav>
+      <!-- End the navigation -->
+    </header>
+    <main>
+      <h2>Welcome to Paw's and Whiskers!</h2>
+      <p>
+        We are a pet adoption center dedicated to finding loving homes for cats
+        and dogs in need. Our mission is to provide a safe and caring
+        environment for our furry friends while they await their forever homes.
+        We believe that every pet deserves a second chance at happiness, and we
+        work tirelessly to connect them with compassionate adopters. Whether
+        you're looking for a playful puppy or a cuddly cat, we have a wide
+        variety of pets waiting to meet you. Come visit us and find your new
+        best friend today!
+      </p>
+    </main>
+  </body>
+</html>
