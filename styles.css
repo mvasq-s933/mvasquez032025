@@ -1,177 +1,168 @@
-html
-{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-body{
-    background-color: plum;
+body {
+  background-color: rgb(249, 202, 252);
 }
 
-.container{
-    max-width: 1200px;
-    min-height: 10rem;
-    margin: auto;
-    background-color: rgb(255, 255, 255);
-    padding: 1rem;
+.container {
+  max-width: 1200px;
+  min-height: 10rem;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
 }
-#pageheader{
-    background-color: rgb(234, 201, 226);
-    min-height: auto;
-    padding: .25rem;
-}
-
-#logo
-{
-    background-image: url(Images/max3.png);
-    width: 6.25rem;
-    height: 6.25rem;
-    border: 1px solid none;
+#pageheader {
+  background-color: rgb(248, 179, 245);
+  min-height: auto;
+  padding: 0.25rem;
 }
 
-#pageheader .container 
-{
-    background-color: rgb(250, 244, 232);
-    min-height: auto;
-}
-#pageheader nav{
-    text-align: center;
-    
+#logo {
+  background-image: url(Images/max3.png);
+  width: 6.25rem;
+  height: 6.25rem;
+  border: 1px solid none;
 }
 
-#pageheader nav ul{
-   background-color: rgb(246, 247, 226);
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
+#pageheader .container {
+  background-color: rgb(250, 244, 232);
+  min-height: auto;
+}
+#pageheader nav {
+  text-align: center;
 }
 
-#pageheader nav ul li{
-    border: 2px solid rgb(255, 189, 189);
-    padding: 1rem;
-    margin: 2px;
-    background-color: rgb(249, 249, 229);
+#pageheader nav ul {
+  background-color: rgb(246, 247, 226);
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
 }
 
-#pageheader nav ul li:hover{
-    background-color: rgb(255, 189, 189);
-   
+#pageheader nav ul li {
+  border: 2px solid rgb(255, 189, 232);
+  padding: 1rem;
+  margin: 2px;
+  background-color: rgb(249, 249, 229);
 }
 
-#media{
-    background-color: rgb(185, 237, 239);
-    min-height: 10rem;
-    padding: 1rem;
-    background-image: url(Images/Hero2.png);
-    background-size: cover;
-    aspect-ratio: 16/ 9;
+#pageheader nav ul li:hover {
+  background-color: rgb(189, 232, 255);
 }
 
-#career{
-    background-color: rgb(199, 202, 245);
-    min-height: 10rem;
-    padding: 1rem;
+#media {
+  background-color: rgb(185, 237, 239);
+  min-height: 10rem;
+  padding: 1rem;
+  background-image: url(Images/Hero2.png);
+  background-size: cover;
+  aspect-ratio: 16/ 9;
 }
 
-#pagecontent{
-    background-color: rgb(169, 206, 206);
-    min-height: 10rem;
-    padding: 1rem;
+#career {
+  background-color: rgb(198, 236, 255);
+  min-height: 10rem;
+  padding: 1rem;
 }
-  blockquote
-{
-  background-color:none;
-  padding:1rem;
-  width:50%;
-  margin:auto;
-  font-size:1.25rem; 
+
+#pagecontent {
+  background-color: rgb(169, 206, 206);
+  min-height: 10rem;
+  padding: 1rem;
+}
+blockquote {
+  background-color: none;
+  padding: 1rem;
+  width: 50%;
+  margin: auto;
+  font-size: 1.25rem;
   font-weight: bold;
   color: pink;
 }
-blockquote + span
-{
-  background-color:none;
-  padding:1rem;
-  display:block;
-  width:50%;
-  margin:0 auto;
-  text-align:right;
+blockquote + span {
+  background-color: none;
+  padding: 1rem;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  text-align: right;
 }
-span
-{
-  background-color:none;
+span {
+  background-color: none;
 }
-p{background-color:none;}   
-
-
-#semester1{
-    background-color: rgb(196, 221, 240);
-    min-height: 10rem;
-    padding: 1rem;
+p {
+  background-color: none;
 }
 
-#semester2{
-    background-color: rgb(153, 248, 237);
-    min-height: 10rem;
-    padding: 1rem;
+#semester1 {
+  background-color: rgb(198, 236, 255);
+  min-height: 10rem;
+  padding: 1rem;
 }
 
-#pagefooter{
-    background-color: rgba(211, 255, 224, 0.812);
-    min-height: auto;
-    padding: 1rem;
-}
-#pagefooter .container{
-    min-height: auto;
-    text-align: center;
-    background-image: url(Images/small.png);
+#semester2 {
+  background-color: rgb(198, 236, 255);
+  min-height: 10rem;
+  padding: 1rem;
 }
 
-#aifooter{
-    background-color: rgb(255, 209, 220);
-    min-height:auto;
-    padding: 1rem;
+#pagefooter {
+  background-color: rgba(255, 209, 220);
+  min-height: auto;
+  padding: 1rem;
+}
+#pagefooter .container {
+  min-height: auto;
+  text-align: center;
 }
 
-#aifooter .container{
-    min-height: auto;
-    text-align: center;
-    background-image: url(Images/ai.png);
+#aifooter {
+  background-color: rgb(255, 209, 220);
+  min-height: auto;
+  padding: 1rem;
 }
 
-
-#subfooter{
-    background-color: rgb(237, 173, 223);
-    min-height: 10rem;
-    padding: 1rem;
-    text-align: center;
+#aifooter .container {
+  min-height: auto;
+  text-align: center;
+  background-image: url(Images/ai.png);
 }
 
-
-
-audio
-{
-    border: 5px solid skyblue;
-    background-color: skyblue;
-    display: block;
-    margin: auto;
-}
-a{ color: red;}
-
-
-
-@media screen and (min-width: 600px)
-{
-#pageheader nav ul{
-      margin-top: 2rem;}
-
-    #pageheader nav ul li{
-        display: inline-block;}
-
- #pagecontent{background-color: pink;}
+#subfooter {
+  background-color: rgb(237, 173, 223);
+  min-height: 10rem;
+  padding: 1rem;
+  text-align: center;
 }
 
+audio {
+  border: 5px solid rgb(249, 188, 255);
+  background-color: rgb(233, 165, 217);
+  display: block;
+  margin: auto;
+}
+a {
+  color: red;
+}
 
-@media screen and (min-width: 1000px)
-{
- #pagecontent{background-color: rgb(216, 242, 255);}
+@media screen and (min-width: 600px) {
+  #pageheader nav ul {
+    margin-top: 2rem;
+  }
+
+  #pageheader nav ul li {
+    display: inline-block;
+  }
+
+  #pagecontent {
+    background-color: pink;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #pagecontent {
+    background-color: rgb(216, 242, 255);
+  }
 }
