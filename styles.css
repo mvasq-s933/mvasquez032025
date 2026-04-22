@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: rgb(249, 202, 252);
+  background-color: rgb(72, 70, 192);
 }
 
 .container {
@@ -14,7 +14,7 @@ body {
   padding: 1rem;
 }
 #pageheader {
-  background-color: rgb(248, 179, 245);
+  background-color: rgb(72, 70, 192);
   min-height: auto;
   padding: 0.25rem;
 }
@@ -35,40 +35,39 @@ body {
 }
 
 #pageheader nav ul {
-  background-color: rgb(246, 247, 226);
   list-style-type: none;
   margin: 0px;
   padding: 0px;
 }
 
 #pageheader nav ul li {
-  border: 2px solid rgb(255, 189, 232);
+  border: 2px solid rgb(98, 122, 230);
   padding: 1rem;
   margin: 2px;
   background-color: rgb(249, 249, 229);
 }
 
 #pageheader nav ul li:hover {
-  background-color: rgb(189, 232, 255);
+  background-color: rgb(243, 249, 174);
 }
 
 #media {
-  background-color: rgb(185, 237, 239);
+  background-color: rgb(232, 239, 185);
   min-height: 10rem;
   padding: 1rem;
-  background-image: url(Images/Hero2.png);
+  background-image: url(Images/Field\ Sunflower\ GIF.png);
   background-size: cover;
   aspect-ratio: 16/ 9;
 }
 
 #career {
-  background-color: rgb(198, 236, 255);
+  background-color: rgb(98, 122, 230);
   min-height: 10rem;
   padding: 1rem;
 }
 
 #pagecontent {
-  background-color: rgb(169, 206, 206);
+  background-color: rgb(98, 122, 230);
   min-height: 10rem;
   padding: 1rem;
 }
@@ -79,7 +78,7 @@ blockquote {
   margin: auto;
   font-size: 1.25rem;
   font-weight: bold;
-  color: pink;
+  color: rgb(98, 122, 230);
 }
 blockquote + span {
   background-color: none;
@@ -97,19 +96,19 @@ p {
 }
 
 #semester1 {
-  background-color: rgb(198, 236, 255);
+  background-color: rgb(72, 70, 192);
   min-height: 10rem;
   padding: 1rem;
 }
 
 #semester2 {
-  background-color: rgb(198, 236, 255);
+  background-color: rgb(72, 70, 192);
   min-height: 10rem;
   padding: 1rem;
 }
 
 #pagefooter {
-  background-color: rgba(255, 209, 220);
+  background-color: rgb(72, 70, 192);
   min-height: auto;
   padding: 1rem;
 }
@@ -119,7 +118,7 @@ p {
 }
 
 #aifooter {
-  background-color: rgb(255, 209, 220);
+  background-color: rgb(72, 70, 192);
   min-height: auto;
   padding: 1rem;
 }
@@ -131,15 +130,15 @@ p {
 }
 
 #subfooter {
-  background-color: rgb(237, 173, 223);
+  background-color: rgb(72, 70, 192);
   min-height: 10rem;
   padding: 1rem;
   text-align: center;
 }
 
 audio {
-  border: 5px solid rgb(249, 188, 255);
-  background-color: rgb(233, 165, 217);
+  border: 5px solid rgb(72, 70, 192);
+  background-color: rgb(72, 70, 192);
   display: block;
   margin: auto;
 }
@@ -157,12 +156,12 @@ a {
   }
 
   #pagecontent {
-    background-color: pink;
+    background-color: rgb(98, 122, 230);
   }
 }
 
 @media screen and (min-width: 1000px) {
   #pagecontent {
-    background-color: rgb(216, 242, 255);
+    background-color: rgb(72, 70, 192);
   }
 }
