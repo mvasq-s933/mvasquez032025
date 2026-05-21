@@ -106,6 +106,24 @@ p {
   min-height: 10rem;
   padding: 1rem;
 }
+#worksamples {
+  background-color: rgb(72, 70, 192);
+  min-height: 10rem;
+  padding: 1rem;
+}
+#certificates {
+  background-color: rgb(72, 70, 192);
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#certificates ul {
+  list-style-type: none;
+}
+
+#certificates i {
+  color: aqua;
+}
 
 #pagefooter {
   background-color: rgb(72, 70, 192);
