@@ -111,6 +111,12 @@ p {
   min-height: 10rem;
   padding: 1rem;
 }
+#worksamples ul {
+  list-style-type: none;
+}
+#worksamples i {
+  color: rgb(98, 122, 230);
+}
 #certificates {
   background-color: rgb(72, 70, 192);
   min-height: 10rem;
